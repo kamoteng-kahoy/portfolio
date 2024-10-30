@@ -11,6 +11,7 @@
   --color-dark3: #4A544E; /* Slate Grey */
   --color-dark4: #3B3B3B; /* Charcoal */
   --color-subtle-background: #F8F8F8; /* Subtle White */
+  --color-card: #fdfbf3; /* Lighter accent color */
   --font-family: 'Poppins', sans-serif;
 }
 
@@ -162,7 +163,7 @@ h2 {
 .skill-item,
 .experience-item,
 .contact-item {
-  background-color: var(--color-background);
+  background-color: var(--color-card);
   padding: 20px;
   border-radius: 8px;
   width: 100%;
