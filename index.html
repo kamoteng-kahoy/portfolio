@@ -1,109 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap" rel="stylesheet">
-    <title>Autor - Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>James Autor - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="nav">
-        <a href="#home">Home</a>
-        <a href="#about">Skills</a>
-		<a href="#exp">Experience</a>
-        <a href="#contact">Contact</a>
-    </div>
+    <nav class="nav">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">Skills</a>
+        <a href="#exp" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+    </nav>
 
-    <div class="container" id="home">
-        <div class="divider-head-left">
-            <h1 class="title">James Autor</h1>
-            <p class="p-light">A software developer that develops applications
-                that based on personal and/or people's need
-                professionally.</p>
-        </div>
-        <div class="divider-head-right">
-            <img src="ako.png" class="image" alt="ako">
-        </div>
-    </div>
-
-    <div class="container-skills" id="about">
-        <div class="head">
-            <h1>Skills</h1>
-        </div>
-        <div class="divider">
-            <h2>Photography</h2>
-            <p>Photographers take pictures of events, people, things, or scenes for documentation, artistic purposes, or for business.</p>
-        </div>
-        <div class="divider">
-            <h2>Video Editor</h2>
-            <p>A video editor is a specialist tasked with taking the uncut material captured by a camera crew and director and combining it into a single movie or film.</p>
-        </div>
-        <div class="divider">
-            <h2>Videography</h2>
-            <p>A videographer make videos on location or in a set. Make sure the necessary equipment is available and functioning before a shot. Together with the customer and the creative team, plan the shoot. Edit video after it has been shot. Control additional cameramen so that the required video is captured</p>
-        </div>
-        <div class="divider">
-            <h2>Sound Designer</h2>
-            <p>For video games, applications, and other interactive media, sound designers gather, edit, and produce sound effects, ambient sounds, and even music.</p>
-        </div>
-    </div>
-
-    <div class="container" id="exp">
-        <div class="head">
-            <h1>Experience</h1>
-        </div>
-        <div class="divider">
-            <img src="ccs.jpg" class="imgg" alt="ccs" >
-            <h2>Department Officer</h2>
-            <p>Treasurer | 2022-2023</p>
-        </div>
-        <div class="divider">
-            <img src="lihim.png" class="img-lihim" alt="">
-            <h2>PSITS Production Team</h2>
-            <p>Assistant Video Editor, Musical Compose and Scorer | 2022</p>
-        </div>
-    </div>
-
-    <div class="container-skills" id="contact">
-        <div class="head">
-            <h1>Contact</h1>
-        </div>
-        <div class="divider">
-            <a href="https://www.facebook.com/jeymmss.14"><img src="fb.png" class="logo" alt="facebook" ></a>
-            <h2>Facebook</h2>
-            <p>@jeymmss.14</p>
-        </div>
-        <div class="divider">
-            <a href="https://twitter.com/jymsatr"><img src="twt.png" class="logo" alt="twitter" ></a>
-            <h2>Twitter</h2>
-            <p>@jymsatr</p>
-        </div>
-        <div class="divider">
-            <a href="https://www.instagram.com/jahmeess_/"><img src="ig.png" class="logo" alt="instagram" ></a>
-            <h2>Instagram</h2>
-            <p>@jahmeess_</p>
-        </div>
-        <div class="divider">
-            <a href="https://github.com/kamoteng-kahoy"><img src="git.png" class="logo" alt="github" ></a>
-            <h2>Github</h2>
-            <p>@kamoteng-kahoy</p>
-        </div>
-        <div class="divider">
-        <img src="gmail.png" class="logo" alt="gmail" >
-            <h2>E-Mail</h2>
-            <p>jamesautor13@gmail.com</p>
-        </div>
-        <div class="divider">
-            <img src="phone.png" class="logo" alt="phone" >
-                <h2>Phone</h2>
-                <p>09197959889</p>
+    <section class="hero" id="home">
+        <div class="profile-container">
+            <div class="profile-image-wrapper">
+                <img src="auts.jpg" alt="James Autor" class="profile-image">
             </div>
-    </div>
+            <div class="profile-details-wrapper">
+                <div class="profile-details">
+                    <h1 class="hero-title">James Autor</h1>
+                    <p class="hero-subtitle">Striving for the best as I can be, passionate about learning new things and always ready to take on new challenges. I am an aspiring Mobile Developer, Photographer, Music Composer, and Music Producer.</p>
+                
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <div class="footer">
-        <hr>
+    <section class="skills" id="about">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill-item">
+                <h3>Web Development</h3>
+                <p>Building responsive and clean websites using modern technologies.</p>
+            </div>
+            <div class="skill-item">
+                <h3>UI/UX Design</h3>
+                <p>Designing user-friendly interfaces with a focus on simplicity.</p>
+            </div>
+            <div class="skill-item">
+                <h3>Photography</h3>
+                <p>Capturing moments with a minimalist aesthetic.</p>
+            </div>
+            <div class="skill-item">
+                <h3>Video Editing</h3>
+                <p>Creating concise and impactful visual content.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="experience" id="exp">
+        <h2>Experience</h2>
+        <div class="experience-container">
+            <div class="experience-item">
+                <h3>Department Officer</h3>
+                <p>Treasurer | 2022-2023</p>
+            </div>
+            <div class="experience-item">
+                <h3>PSITS Production Team</h3>
+                <p>Assistant Video Editor & Composer | 2022</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <div class="contact-item">
+                <a href="https://www.facebook.com/jeymmss.14">
+                    <img src="fb.png" alt="Facebook" class="contact-logo">
+                </a>
+                <p>@jeymmss.14</p>
+            </div>
+            <div class="contact-item">
+                <a href="https://twitter.com/jymsatr">
+                    <img src="twt.png" alt="Twitter" class="contact-logo">
+                </a>
+                <p>@jymsatr</p>
+            </div>
+            <div class="contact-item">
+                <a href="https://www.instagram.com/jahmeess_/">
+                    <img src="ig.png" alt="Instagram" class="contact-logo">
+                </a>
+                <p>@jahmeess_</p>
+            </div>
+            <div class="contact-item">
+                <a href="https://github.com/kamoteng-kahoy">
+                    <img src="git.png" alt="GitHub" class="contact-logo">
+                </a>
+                <p>@kamoteng-kahoy</p>
+            </div>
+            <div class="contact-item">
+                <img src="gmail.png" alt="Email" class="contact-logo">
+                <p>jamesautor13@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
         <p>© James Autor, All Rights Reserved 2022</p>
-    </div>
+    </footer>
+
+    <script src="main.js"></script>
 </body>
 </html>
